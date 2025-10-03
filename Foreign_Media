@@ -1,22 +1,11 @@
 payload:
   - DOMAIN-SUFFIX,edgedatg.com
   - DOMAIN-SUFFIX,go.com
-  - DOMAIN-KEYWORD,anthropic
-  - DOMAIN,ai.google.dev
-  - DOMAIN,aistudio.google.com
-  - DOMAIN,api.githubcopilot.com
-  - DOMAIN,api.groq.com
   - DOMAIN,api.together.xyz
-  - DOMAIN,bard.google.com
-  - DOMAIN,console.groq.com
   - DOMAIN,copilot-proxy.githubusercontent.com
-  - DOMAIN,generativelanguage.googleapis.com
   - DOMAIN,sydney.bing.com
   - DOMAIN-SUFFIX,ai.azure.com
-  - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,bard.google.com
-  - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
   - DOMAIN-SUFFIX,copilot.cloud.microsoft
   - DOMAIN-SUFFIX,copilot.microsoft.com
@@ -34,8 +23,6 @@ payload:
   - DOMAIN-SUFFIX,mistral.ai
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,sora.com
   - DOMAIN-KEYWORD,abematv.akamaized.net
@@ -274,7 +261,6 @@ payload:
   - DOMAIN-SUFFIX,olevod.io
   - DOMAIN-SUFFIX,olevod.tv
   - DOMAIN-SUFFIX,olevodtv.com
-  - DOMAIN-KEYWORD,openai
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,chatgpt.com
@@ -286,8 +272,6 @@ payload:
   - DOMAIN-SUFFIX,intercomcdn.com
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,pbs.org
