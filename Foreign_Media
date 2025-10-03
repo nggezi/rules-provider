@@ -2,8 +2,6 @@ payload:
   - DOMAIN-SUFFIX,edgedatg.com
   - DOMAIN-SUFFIX,go.com
   - DOMAIN-KEYWORD,anthropic
-  - DOMAIN-KEYWORD,claude
-  - DOMAIN-KEYWORD,openai
   - DOMAIN,ai.google.dev
   - DOMAIN,aistudio.google.com
   - DOMAIN,api.githubcopilot.com
@@ -19,8 +17,6 @@ payload:
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,bard.google.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
   - DOMAIN-SUFFIX,copilot.cloud.microsoft
