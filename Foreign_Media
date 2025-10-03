@@ -10,7 +10,6 @@ payload:
   - DOMAIN,bard.google.com
   - DOMAIN,console.groq.com
   - DOMAIN,copilot-proxy.githubusercontent.com
-  - DOMAIN,gemini.google.com
   - DOMAIN,generativelanguage.googleapis.com
   - DOMAIN,sydney.bing.com
   - DOMAIN-SUFFIX,ai.azure.com
@@ -25,7 +24,6 @@ payload:
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,events.statsigapi.net
   - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,grazie.ai
   - DOMAIN-SUFFIX,grazie.aws.intellij.net
   - DOMAIN-SUFFIX,identrust.com
