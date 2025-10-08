@@ -31,7 +31,6 @@ payload:
   - DOMAIN-SUFFIX,us
   - DOMAIN-SUFFIX,ca
   - DOMAIN-KEYWORD,1e100
-  - DOMAIN-KEYWORD,abema
   - DOMAIN-KEYWORD,appledaily
   - DOMAIN-KEYWORD,avtb
   - DOMAIN-KEYWORD,beetalk
