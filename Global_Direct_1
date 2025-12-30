@@ -2,7 +2,7 @@ payload:
   - DOMAIN-SUFFIX,parkson-market.org
   - DOMAIN-SUFFIX,api-flowercloud.com
   - DOMAIN-SUFFIX,api-huacloud.com
-  - DOMAIN-KEYWORD,xmancdn.net
+  - DOMAIN-KEYWORD,xmancdn
   - PROCESS-NAME,miaospeed-linux-arm64
   - DOMAIN-SUFFIX,bangumi.online
   - DOMAIN-SUFFIX,bangumi.cloud
