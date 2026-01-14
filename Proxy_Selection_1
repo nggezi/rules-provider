@@ -1,4 +1,5 @@
 payload:
+  - IP-ASN,61112
   - DOMAIN-KEYWORD,embyplus.org
   - DOMAIN-KEYWORD,pilipiliultra  
   - DOMAIN-KEYWORD,hanime1
