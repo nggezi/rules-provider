@@ -1,0 +1,12 @@
+payload:
+  - DOMAIN-KEYWORD,embyplus.org
+  - DOMAIN-KEYWORD,pilipiliultra
+  - DOMAIN-KEYWORD,hanime1
+  - DOMAIN-SUFFIX,embyplus.org
+  - DOMAIN-SUFFIX,fofa.info
+  - DOMAIN-KEYWORD,e-hentai.org
+  - DOMAIN-KEYWORD,exhentai.org
+  - DOMAIN-SUFFIX,copilot.cloud.microsoft
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,pro.ctnproxy.com
+  - IP-ASN,61112

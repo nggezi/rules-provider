@@ -1,0 +1,876 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: ""
+
+dns:
+  ipv6: false
+  enable: true
+  listen: 0.0.0.0:1053
+  use-hosts: false
+  default-nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+    - 223.6.6.6
+    - 8.8.4.4
+    - 8.8.8.8
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - tls://8.8.4.4
+    - tls://1.1.1.1  
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*"
+    - +.lan
+    - +.local
+    - time.*.com
+    - ntp.*.com
+    - +.market.xiaomi.com
+  enhanced-mode: fake-ip
+  use-system-hosts: false 
+  nameserver-policy:
+    807dfee88f.5g72hnydl.sbs:
+      - https://durable0762.com:44443/dns-query
+      - https://delirium9599.com:44443/dns-query
+      - https://cf-cdn.delirium9599.com:443/dns-query
+    62584394dd.3jbyu0gkg.sbs:
+      - https://durable0762.com:44443/dns-query
+      - https://delirium9599.com:44443/dns-query
+      - https://cf-cdn.delirium9599.com:443/dns-query
+    +.cloud-nodes.com:
+      - 124.221.68.73:1053
+
+proxy-providers:
+  奶昔:
+    type: http
+    url: https://subs.kimma.org/kimma/download/奶昔?target=ClashMeta
+    interval: 604800
+    path: ./奶昔.yaml
+    override:
+      additional-prefix: 奶昔-
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  dler:
+    type: http
+    url: https://subs.kimma.org/kimma/download/dler?target=ClashMeta
+    interval: 604800
+    path: ./dler.yaml
+    override:
+      additional-prefix: dler-
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  dler_gamer:
+    type: http
+    url: https://oics.net/api/v3/download.getFile/c0f65002-9b49-45a5-9414-e0cd9a8ab976?clash=smart&type=gamer.jpg
+    interval: 604800
+    path: ./dler_gamer.yaml
+    override:
+      additional-prefix: dler_gamer-
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204           
+  Mesl:
+    type: http
+    url: https://subs.kimma.org/kimma/download/mesl?target=ClashMeta
+    interval: 604800
+    path: ./Mesl.yaml
+    override:
+      additional-prefix: Mesl-
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  bitz:
+    type: http
+    url: https://sep.bbdmfetch.com/api/v1/client/subscribe?token=f522cd85c85c36c369177ccfa20fe64f
+    interval: 604800
+    path: ./bitz.yaml
+    override:
+      additional-prefix: bitz-
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  Flower_Cloud:
+    type: http
+    url: https://subs.kimma.org/kimma/download/%E8%8A%B1%E4%BA%91?target=ClashMeta
+    interval: 604800
+    path: ./Flower_Cloud.yaml
+    override:
+      additional-prefix: 花云-
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  咸鱼:
+    type: http
+    url: https://subs.kimma.org/kimma/download/%E5%92%B8%E9%B1%BC%E5%8A%A0%E9%80%9F%E5%99%A8?target=ClashMeta
+    interval: 604800
+    path: ./咸鱼.yaml
+    override:
+      additional-prefix: 咸鱼-
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  饿饭:
+    type: http
+    url: https://subs.kimma.org/kimma/download/%E9%A5%BF%E9%A5%AD?target=ClashMeta
+    interval: 604800
+    path: ./饿饭.yaml
+    override:
+      additional-prefix: 饿饭-
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204          
+  TAG:
+    type: http
+    url: https://subs.kimma.org/kimma/download/tag?target=ClashMeta
+    interval: 604800
+    path: ./TAG.yaml
+    override:
+      additional-prefix: TAG-
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  干杯cloud:
+    type: http
+    url: https://api.surfgb.me/api/v1/client/subscribe?token=de88e63a45f4ff3d35f2763e11feb141
+    interval: 604800
+    path: ./干杯cloud.yaml
+    override:
+      additional-prefix: 干杯-
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  猫熊:
+    type: http
+    url: https://subs.kimma.org/kimma/download/%E7%8C%AB%E7%86%8A?target=ClashMeta
+    interval: 604800
+    path: ./猫熊.yaml
+    override:
+      additional-prefix: 猫熊-
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  Creamdata:
+    type: http
+    url: https://subs.kimma.org/kimma/download/Creamdata?target=ClashMeta
+    interval: 604800
+    path: ./Creamdata.yaml
+    override:
+      additional-prefix: Creamdata-
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  自建:
+    type: http
+    url: https://subs.kimma.org/kimma/download/collection/%E8%87%AA%E5%BB%BA?target=ClashMeta
+    interval: 604800
+    path: ./自建.yaml
+    override:
+      additional-prefix: 自建-
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204      
+  ikuuu:
+    type: http
+    url: https://subs.kimma.org/kimma/download/ikuuu?target=ClashMeta
+    interval: 604800
+    path: ./ikuuu.yaml
+    override:
+      additional-prefix: ikuuu-
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  国内:
+    type: http
+    url: https://subs.kimma.org/kimma/download/%E5%9B%BD%E5%86%85?target=ClashMeta
+    interval: 604800
+    path: ./国内.yaml
+    override:
+      additional-prefix: 国内-
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  家宽:
+    type: http
+    url: https://subs.kimma.org/kimma/download/%E5%AE%B6%E5%AE%BD?target=ClashMeta
+    interval: 604800
+    path: ./家宽.yaml
+    override:
+      additional-prefix: 家宽-
+      dialer-proxy: 中转
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204      
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    interval: 3600
+    url: http://www.gstatic.com/generate_204
+    proxies:
+      - 奶昔
+      - dler
+      - Mesl
+      - bitz
+      - gamer
+      - 自建
+      - 干杯cloud
+      - 咸鱼
+      - 饿饭
+      - Flower_Cloud
+      - TAG
+      - 猫熊
+      - Creamdata
+      - ikuuu
+      - 国内节点
+      - 家宽
+      - DIRECT
+      - REJECT
+  - name: 奶昔
+    type: select
+    use:
+      - 奶昔
+  - name: dler
+    type: select
+    use:
+      - dler
+  - name: Mesl
+    type: select
+    use:
+      - Mesl
+  - name: bitz
+    type: select
+    use:
+      - bitz
+  - name: gamer
+    type: select
+    use:
+      - dler_gamer        
+      - TAG
+    filter: game|游戏
+  - name: 自建
+    type: select
+    use:
+      - 自建
+  - name: 干杯cloud
+    type: select
+    use:
+      - 干杯cloud
+  - name: Flower_Cloud
+    type: select
+    use:
+      - Flower_Cloud
+  - name: TAG
+    type: select
+    use:
+      - TAG
+  - name: 咸鱼
+    type: select
+    use:
+      - 咸鱼
+  - name: 饿饭
+    type: select
+    use:
+      - 饿饭      
+  - name: 猫熊
+    type: select
+    use:
+      - 猫熊
+  - name: Creamdata
+    type: select
+    use:
+      - Creamdata
+  - name: ikuuu
+    type: select
+    use:
+      - ikuuu
+  - name: 国内节点
+    type: select
+    use:
+      - 国内
+  - name: 家宽
+    type: select
+    use:
+      - 家宽
+  - name: 中转
+    type: fallback
+    interval: 3600
+    url: http://www.gstatic.com/generate_204
+    proxies:
+      - 奶昔
+      - dler
+      - Mesl
+      - bitz
+      - 自建
+      - 干杯cloud
+      - 咸鱼
+      - 饿饭
+      - Flower_Cloud
+      - TAG
+      - 猫熊
+      - Creamdata
+      - ikuuu   
+      - DIRECT
+  - name: 🌍IPV6
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 国内节点
+      - 自建
+      - dler
+      - 干杯cloud
+      - 咸鱼
+      - 饿饭
+      - 猫熊
+      - Creamdata
+      - ikuuu
+      - DIRECT
+      - REJECT
+  - name: 🇭🇰 香港节点
+    type: select
+    filter: (?i)(港|🇭🇰|hk|hongkong|hong kong)
+    use: null
+    include-all: true
+  - name: 🇨🇳 台湾节点
+    type: select
+    filter: (?i)(台|tw|taiwan)
+    use: null
+    include-all: true
+  - name: 🇸🇬 狮城节点
+    type: select
+    filter: (?i)(新|🇸🇬|sg|singapore)
+    use: null
+    include-all: true
+  - name: 🇯🇵 日本节点
+    type: select
+    filter: (?i)(日本|🇯🇵|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|jp|japan)
+    include-all: true
+  - name: 🇲🇴 澳门节点
+    type: select
+    filter: (?i)(MACAU|MACAO|澳门)
+    include-all: true
+  - name: 🇺🇲 美国节点
+    type: select
+    filter: (?i)(美|🇺🇸|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|us|unitedstates|united
+      states)
+    include-all: true
+  - name: 📲 电报消息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 奶昔
+      - dler
+      - Mesl
+      - 自建
+      - 咸鱼
+      - 饿饭
+      - Flower_Cloud
+      - TAG
+      - 猫熊
+      - Creamdata
+      - ikuuu
+      - 家宽
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇲🇴 澳门节点
+      - 🇺🇲 美国节点
+      - DIRECT
+      - REJECT
+  - name: 💬 OpenAi
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 奶昔
+      - dler
+      - Mesl
+      - 自建
+      - 咸鱼
+      - 饿饭
+      - Flower_Cloud
+      - TAG
+      - 猫熊
+      - Creamdata
+      - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇲🇴 澳门节点
+      - 🇺🇲 美国节点
+      - DIRECT
+      - REJECT
+  - name: 📹 油管视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 奶昔
+      - dler
+      - Mesl
+      - 自建
+      - 咸鱼
+      - 饿饭
+      - Flower_Cloud
+      - TAG
+      - 猫熊
+      - Creamdata
+      - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇲🇴 澳门节点
+      - 🇺🇲 美国节点
+      - DIRECT
+      - REJECT
+  - name: 🎥 奈飞视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 奶昔
+      - dler
+      - Mesl
+      - 自建
+      - 咸鱼
+      - 饿饭
+      - Flower_Cloud
+      - TAG
+      - 猫熊
+      - Creamdata
+      - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇲🇴 澳门节点
+      - 🇺🇲 美国节点
+      - DIRECT
+      - REJECT
+  - name: 📺 巴哈姆特
+    type: select
+    proxies:
+      - 🇨🇳 台湾节点
+      - 🚀 节点选择
+      - 奶昔
+      - dler
+      - Mesl
+      - 自建
+      - 咸鱼
+      - 饿饭
+      - Flower_Cloud
+      - TAG
+      - 猫熊
+      - Creamdata
+      - ikuuu
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇲🇴 澳门节点
+      - 🇺🇲 美国节点
+      - DIRECT
+      - REJECT
+  - name: 📺 哔哩哔哩
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - 奶昔
+      - dler
+      - Mesl
+      - 自建
+      - 咸鱼
+      - 饿饭
+      - Flower_Cloud
+      - TAG
+      - 猫熊
+      - Creamdata
+      - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇲🇴 澳门节点
+      - 🇺🇲 美国节点
+      - DIRECT
+      - REJECT
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 奶昔
+      - dler
+      - Mesl
+      - 自建
+      - 咸鱼
+      - 饿饭
+      - Flower_Cloud
+      - TAG
+      - 猫熊
+      - Creamdata
+      - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇲🇴 澳门节点
+      - 🇺🇲 美国节点
+      - DIRECT
+      - REJECT
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - 奶昔
+      - dler
+      - Mesl
+      - 自建
+      - 咸鱼
+      - 饿饭
+      - Flower_Cloud
+      - TAG
+      - 猫熊
+      - Creamdata
+      - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇲🇴 澳门节点
+      - 🇺🇲 美国节点
+      - DIRECT
+      - REJECT
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - 奶昔
+      - dler
+      - Mesl
+      - 自建
+      - 咸鱼
+      - 饿饭
+      - Flower_Cloud
+      - TAG
+      - 猫熊
+      - Creamdata
+      - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇲🇴 澳门节点
+      - 🇺🇲 美国节点
+      - DIRECT
+      - REJECT
+  - name: Ⓜ️ 微软云盘
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - 奶昔
+      - dler
+      - Mesl
+      - 自建
+      - 咸鱼
+      - 饿饭
+      - Flower_Cloud
+      - TAG
+      - 猫熊
+      - Creamdata
+      - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇲🇴 澳门节点
+      - 🇺🇲 美国节点
+      - DIRECT
+      - REJECT
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - 奶昔
+      - dler
+      - Mesl
+      - 自建
+      - 咸鱼
+      - 饿饭
+      - Flower_Cloud
+      - TAG
+      - 猫熊
+      - Creamdata
+      - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇲🇴 澳门节点
+      - 🇺🇲 美国节点
+      - DIRECT
+      - REJECT
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - 奶昔
+      - dler
+      - Mesl
+      - 自建
+      - 咸鱼
+      - 饿饭
+      - Flower_Cloud
+      - TAG
+      - 猫熊
+      - Creamdata
+      - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇲🇴 澳门节点
+      - 🇺🇲 美国节点
+      - DIRECT
+      - REJECT
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - 奶昔
+      - dler
+      - Mesl
+      - 自建
+      - 咸鱼
+      - 饿饭
+      - Flower_Cloud
+      - TAG
+      - 猫熊
+      - Creamdata
+      - ikuuu
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 狮城节点
+      - 🇲🇴 澳门节点
+      - 🇺🇲 美国节点
+      - DIRECT
+      - REJECT
+  - name: 🎶 网易音乐
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 自建
+      - 国内节点
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 奶昔
+      - dler
+      - Mesl
+      - 自建
+      - 咸鱼
+      - 饿饭
+      - Flower_Cloud
+      - TAG
+      - 猫熊
+      - Creamdata
+      - ikuuu
+      - REJECT
+      - DIRECT
+rule-providers:
+  Proxy_Selection_1:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/Proxy_Selection_1"
+    interval: 3600
+    path: ./Proxy_Selection_1.yaml
+  Global_Direct_1:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/Global_Direct_1"
+    interval: 3600
+    path: ./Global_Direct_1.yaml 
+  Ad_Blocking:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/Ad_Blocking"
+    interval: 3600
+    path: ./Ad_Blocking.yaml
+  App_Purification:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/App_Purification"
+    interval: 3600
+    path: ./App_Purification.yaml
+  Google_FCM:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/Google_FCM"
+    interval: 3600
+    path: ./Google_FCM.yaml
+  Global_Direct_2:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/Global_Direct_2"
+    interval: 3600
+    path: ./Global_Direct_2.yaml
+  MSN_Cloud:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/MSN_Cloud"
+    interval: 3600
+    path: ./MSN_Cloud.yaml
+  MSN_Service:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/MSN_Service"
+    interval: 3600
+    path: ./MSN_Service.yaml 
+  Apple_Service:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/Apple_Service"
+    interval: 3600
+    path: ./Apple_Service.yaml
+  Telegram_Message:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/Telegram_Message"
+    interval: 3600
+    path: ./Telegram_Message.yaml
+  AI_Service:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/AI_Service"
+    interval: 3600
+    path: ./AI_Service.yaml
+  Netease_Music:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/Netease_Music"
+    interval: 3600
+    path: ./Netease_Music.yaml
+  Game_Platform:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/Game_Platform"
+    interval: 3600
+    path: ./Game_Platform.yaml 
+  Youtube_Video:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/Youtube_Video"
+    interval: 3600
+    path: ./Youtube_Video.yaml 
+  Netfilx_Video:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/Netfilx_Video"
+    interval: 3600
+    path: ./Netfilx_Video.yaml 
+  Bahamut:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/Bahamut"
+    interval: 3600
+    path: ./Bahamut.yaml 
+  Bilibili:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/Bilibili"
+    interval: 3600
+    path: ./Bilibili.yaml 
+  Domestic_Media:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/Domestic_Media"
+    interval: 3600
+    path: ./Domestic_Media.yaml 
+  Foreign_Media:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/Foreign_Media"
+    interval: 3600
+    path: ./Foreign_Media.yaml 
+  Proxy_Selection_2:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/Proxy_Selection_2"
+    interval: 3600
+    path: ./Proxy_Selection_2.yaml 
+  Global_Direct_3:
+    behavior: "classical"
+    type: http
+    url: "https://raw.githubusercontent.com/nggezi/rules-provider/refs/heads/main/Global_Direct_3"
+    interval: 3600
+    path: ./Global_Direct_3.yaml 
+
+rules:
+#手动添加
+  - DOMAIN-KEYWORD,tennouji.v6.navy,🌍IPV6
+  - IP-CIDR6,::/0,🌍IPV6
+#自动添加 
+  - RULE-SET,Proxy_Selection_1,🚀 节点选择
+  - RULE-SET,Global_Direct_1,🎯 全球直连
+  - RULE-SET,Ad_Blocking,🛑 广告拦截
+  - RULE-SET,App_Purification,🍃 应用净化  
+  - RULE-SET,Google_FCM,📢 谷歌FCM
+  - RULE-SET,Global_Direct_2,🎯 全球直连
+  - RULE-SET,MSN_Cloud,Ⓜ️ 微软云盘
+  - RULE-SET,MSN_Service,Ⓜ️ 微软服务
+  - RULE-SET,Apple_Service,🍎 苹果服务
+  - RULE-SET,Telegram_Message,📲 电报消息
+  - RULE-SET,AI_Service,💬 OpenAi
+  - RULE-SET,Netease_Music,🎶 网易音乐
+  - RULE-SET,Game_Platform,🎮 游戏平台
+  - RULE-SET,Youtube_Video,📹 油管视频
+  - RULE-SET,Netfilx_Video,🎥 奈飞视频
+  - RULE-SET,Bahamut,📺 巴哈姆特
+  - RULE-SET,Bilibili,📺 哔哩哔哩
+  - RULE-SET,Domestic_Media,🌏 国内媒体
+  - RULE-SET,Foreign_Media,🌍 国外媒体
+  - RULE-SET,Proxy_Selection_2,🚀 节点选择
+  - RULE-SET,Global_Direct_3,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
