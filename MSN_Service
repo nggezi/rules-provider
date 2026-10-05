@@ -79,3 +79,23 @@ payload:
   - DOMAIN-SUFFIX,wunderlist.com
   - DOMAIN-SUFFIX,yammer.com
   - DOMAIN-SUFFIX,yammerusercontent.com
+  # Microsoft 主域 / 账号
+  - DOMAIN-SUFFIX,microsoft.com
+  - DOMAIN-SUFFIX,microsoftonline.com
+  - DOMAIN-SUFFIX,1drv.com
+  # 开发者 / 命令行（vscode.* / vsassets.io 已移出，走漏网之鱼到代理）
+  - DOMAIN-SUFFIX,nuget.org
+  - DOMAIN-SUFFIX,powershellgallery.com
+  - DOMAIN-SUFFIX,appcenter.ms
+  # Xbox / 游戏（gamepass.com 已移出，走漏网之鱼到代理）
+  - DOMAIN-SUFFIX,xbox.com
+  - DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN-SUFFIX,xboxservices.com
+  - DOMAIN-SUFFIX,xboxgamertag.com
+  - DOMAIN-SUFFIX,xboxgamepass.com
+  - DOMAIN-SUFFIX,minecraft.net
+  - DOMAIN-SUFFIX,mojang.com
+  - DOMAIN-SUFFIX,bethesda.net
+  - DOMAIN-SUFFIX,bethesdagamestudios.com
+  # 其他（tenor.com 已在 Proxy_Selection_2，走代理）
+  - DOMAIN-SUFFIX,clarity.ms

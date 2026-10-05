@@ -1,14 +1,29 @@
 payload:
-  # Google Gemini
+  # Google Gemini / AI Studio
   - DOMAIN,ai.google.dev
   - DOMAIN,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN,alkalicore-pa.clients6.google.com
+  - DOMAIN,aisandbox-pa.googleapis.com
+  - DOMAIN,robinfrontend-pa.googleapis.com
+  - DOMAIN,aida.googleapis.com
+  - DOMAIN,daily-cloudcode-pa.googleapis.com
+  - DOMAIN,antigravity.google
+  - DOMAIN,jules.google.com
   - DOMAIN,makersuite.google.com
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,gemini.google
   - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN-SUFFIX,g.ai
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,notebooklm.google
+  - DOMAIN-SUFFIX,notebooklm.google.com
+  - DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+  - DOMAIN-SUFFIX,geller-pa.googleapis.com
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
   - DOMAIN-SUFFIX,apis.google.com
   - DOMAIN-KEYWORD,colab
   - DOMAIN-KEYWORD,developerprofiles
@@ -16,17 +31,39 @@ payload:
   # Anthropic Claude
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,clau.de
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-KEYWORD,anthropic
   - DOMAIN-KEYWORD,claude
   # OpenAI
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,chatgpt.site
+  - DOMAIN-SUFFIX,chat.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,crixet.com
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,oaistatsig.com
   - DOMAIN-SUFFIX,sora.com
+  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,openaicom.imgix.net
   - DOMAIN-KEYWORD,openai
+  # OpenAI 登录/风控依赖（第三方，共享服务，如需可注释）: Cloudflare 人机验证
+  - DOMAIN,openai-api.arkoselabs.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,identrust.com
+  # OpenAI 语音（WebRTC）
+  - DOMAIN-SUFFIX,chatgpt.livekit.cloud
+  - DOMAIN-SUFFIX,host.livekit.cloud
+  - DOMAIN-SUFFIX,turn.livekit.cloud
   # Microsoft Copilot
   - DOMAIN-SUFFIX,copilot.cloud.microsoft
   - DOMAIN-SUFFIX,copilot.microsoft.com
@@ -58,6 +95,23 @@ payload:
   - DOMAIN,api.stability.ai
   # Lepton AI
   - DOMAIN-SUFFIX,lepton.ai
+  # POE
+  - DOMAIN-SUFFIX,poe.com
+  # xAI Grok
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,x.ai
+  # OpenRouter
+  - DOMAIN,openrouter.ai
+  # Cloudflare AI Gateway
+  - DOMAIN,gateway.ai.cloudflare.com
+  # Dify
+  - DOMAIN-SUFFIX,dify.ai
+  # Jasper / OpenArt / ClipDrop
+  - DOMAIN-SUFFIX,jasper.ai
+  - DOMAIN-SUFFIX,openart.ai
+  - DOMAIN-SUFFIX,clipdrop.co
+  # GitHub Copilot
+  - DOMAIN,api.githubcopilot.com
   # 其他AI服务
   - DOMAIN-SUFFIX,ai.azure.com
   - DOMAIN-SUFFIX,meta.ai

@@ -6,6 +6,11 @@ payload:
   - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,netflix.com
   - DOMAIN-SUFFIX,netflix.net
+  - DOMAIN-SUFFIX,netflix.ca
+  - DOMAIN-SUFFIX,netflixinvestor.com
+  - DOMAIN-SUFFIX,netflixstudios.com
+  - DOMAIN-SUFFIX,netflixtechblog.com
+  - DOMAIN-SUFFIX,nflxsearch.net
   - DOMAIN-SUFFIX,netflixdnstest0.com
   - DOMAIN-SUFFIX,netflixdnstest1.com
   - DOMAIN-SUFFIX,netflixdnstest2.com
