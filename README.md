@@ -55,10 +55,10 @@ rule-providers:
     path: ./Bilibili.yaml
 
 rules:
-  - RULE-SET,Bilibili,<代理策略组>
+  - RULE-SET,Bilibili,<目标策略组>
 ```
 
-`interval` 决定自动刷新周期；`path` 为本地缓存路径（相对 mihomo 工作目录）。
+`interval` 决定自动刷新周期；`path` 为本地缓存路径（相对 mihomo 工作目录）；`<目标策略组>` 按规则集语义填写（如直连类填直连组、代理类填代理组）。
 
 ## 更新日志
 
