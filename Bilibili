@@ -26,11 +26,6 @@ payload:
   - DOMAIN-SUFFIX,hdslb.com
   - DOMAIN-SUFFIX,im9.com
   - DOMAIN-SUFFIX,smtcdns.net
-  # 哔哩哔哩 国际版（bilibili.tv / biliintl）
-  - DOMAIN-SUFFIX,bilibili.tv
-  - DOMAIN-SUFFIX,biliintl.co
-  - DOMAIN-SUFFIX,biliintl.com
-  - DOMAIN,apiintl.biliapi.net
   # 哔哩哔哩 IP段
   - IP-CIDR,45.43.32.234/32,no-resolve
   - IP-CIDR,103.151.150.0/23,no-resolve

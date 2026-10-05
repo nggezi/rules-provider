@@ -219,6 +219,11 @@ payload:
   - DOMAIN-SUFFIX,viu.com
   - DOMAIN-SUFFIX,viu.now.com
   - DOMAIN-SUFFIX,viu.tv
+  # Bilibili 国际版（走代理；国内 Bilibili 主站走直连，见 Bilibili 规则集）
+  - DOMAIN-SUFFIX,bilibili.tv
+  - DOMAIN-SUFFIX,biliintl.co
+  - DOMAIN-SUFFIX,biliintl.com
+  - DOMAIN,apiintl.biliapi.net
   # Spotify
   - DOMAIN-KEYWORD,-spotify-
   - DOMAIN-KEYWORD,spotify.com

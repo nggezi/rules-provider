@@ -13,9 +13,8 @@
   - `Proxy_Selection_2`：新增国际版域名走代理 —— `cache.video.iqiyi.com`、`inter.iqiyi.com`、`intl-rcd.iqiyi.com`、`intl-subscription.iqiyi.com`、`intl.iqiyi.com`、`iq.com`。
   - 对齐 blackmatrix7 `iQIYI`（国内）/ `iQIYIIntl`（国际）的拆分思路。
 - **哔哩哔哩**：
-  - `Bilibili`：恢复 Akamai **中国边缘** CDN（`p-bstarstatic.akamaized.net`、`p.bstarstatic.com`、`upos-bstar-mirrorakam.akamaized.net`、`upos-bstar1-mirrorakam.akamaized.net`、`upos-hz-mirrorakam.akamaized.net`），国内解析到 `23.60.96.x` / `23.204.80.x`，保持直连。
-  - `Bilibili`：国际版域名 `bilibili.tv` / `biliintl.co` / `biliintl.com` / `apiintl.biliapi.net` 一并归入本规则集（整站同组）。
-  - `Foreign_Media`：移除上述哔哩哔哩国际版域名（改由 `Bilibili` 承接）。
+  - `Bilibili`（直连）：恢复 Akamai **中国边缘** CDN（`p-bstarstatic.akamaized.net`、`p.bstarstatic.com`、`upos-bstar-mirrorakam.akamaized.net`、`upos-bstar1-mirrorakam.akamaized.net`、`upos-hz-mirrorakam.akamaized.net`），国内解析到 `23.60.96.x` / `23.204.80.x`。
+  - `Foreign_Media`（代理）：国际版域名 `bilibili.tv` / `biliintl.co` / `biliintl.com` / `apiintl.biliapi.net` 归此走代理，与国内 Bilibili 主站区分。
   - `Global_Direct_3`：移除 `biliintl.co`，避免同名域名方向冲突。
 - **外部一致性**：改动与 blackmatrix7（`BiliBili` / `BiliBiliIntl`、`iQIYI` / `iQIYIIntl`）及 MetaCubeX `geosite`（`iqiyi` / `bilibili`）对照确认；CDN 归属以国内 DNS 解析结果为准。
 
