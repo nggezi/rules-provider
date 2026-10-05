@@ -16,7 +16,7 @@
   - `Bilibili`：恢复 Akamai **中国边缘** CDN（`p-bstarstatic.akamaized.net`、`p.bstarstatic.com`、`upos-bstar-mirrorakam.akamaized.net`、`upos-bstar1-mirrorakam.akamaized.net`、`upos-hz-mirrorakam.akamaized.net`），国内解析到 `23.60.96.x` / `23.204.80.x`，保持直连。
   - `Foreign_Media`：补 `biliintl.com`（国际版），与既有 `bilibili.tv` / `biliintl.co` 一起走代理。
   - `Global_Direct_3`：移除 `biliintl.co`，消除与 `Foreign_Media` 的方向冲突。
-- **外部一致性**：改动与 blackmatrix7（`BiliBili` / `BiliBiliIntl`、`iQIYI` / `iQIYIIntl`）及 MetaCubeX `geosite`（`iqiyi` / `bilibili`）对照确认；CDN 归属以国内 DNS（223.5.5.5）解析结果为准。
+- **外部一致性**：改动与 blackmatrix7（`BiliBili` / `BiliBiliIntl`、`iQIYI` / `iQIYIIntl`）及 MetaCubeX `geosite`（`iqiyi` / `bilibili`）对照确认；CDN 归属以国内 DNS 解析结果为准。
 
 ### 新增 — AI / 流媒体 / 平台域名补全
 
@@ -29,11 +29,6 @@
 - `Foreign_Media`：补充 Amazon / Prime Video / IMDb / Audible 及 Disney 族（`disney.com`、`espn*`、`marvel.com`、`starwars.com`、`nationalgeographic.com`、`hotstar.com` 等）。
 - `Bilibili`：补充 `biliimg.com`、`bilicomic(s).com`、`maoer.com`、`missevan.com`。
 
-### 说明
-
-- 主配置（`mix.yaml` / `mix_merlin_clash.yaml`）通过 URL 拉取本仓库规则集，`path` 仅为本地缓存；本仓库更新后，主配置在 `interval` 到期后自动生效。
-- 内联规则版本（`mix_1.yaml`）不依赖本仓库，需手动同步。
-
 ## [Initial] — 基线
 
-规则集随配置整合而建立，包含 21 个 `RULE-SET`，覆盖代理兜底、广告拦截、应用净化、国内直连、国外媒体、AI、游戏平台、Apple / Microsoft 服务等。
+规则集随配置整合而建立，覆盖代理兜底、广告拦截、应用净化、国内直连、国外媒体、AI、游戏平台、Apple / Microsoft 服务等。
