@@ -27,7 +27,18 @@ payload:
   - DOMAIN-SUFFIX,amazontools.com
   - DOMAIN-SUFFIX,amazontours.com
   - DOMAIN-SUFFIX,amazonuniversity.jobs
+  - DOMAIN-SUFFIX,amazon.com
+  - DOMAIN-SUFFIX,amazon.co.uk
+  - DOMAIN-SUFFIX,amazon.co.jp
+  - DOMAIN-SUFFIX,amazon.de
+  - DOMAIN-SUFFIX,amazon.fr
+  - DOMAIN-SUFFIX,amazon.com.au
+  - DOMAIN-SUFFIX,amazon.ca
+  - DOMAIN-SUFFIX,primevideo.com
+  - DOMAIN-SUFFIX,prime-video.com
   - DOMAIN-SUFFIX,amazonvideo.com
+  - DOMAIN-SUFFIX,imdb.com
+  - DOMAIN-SUFFIX,audible.com
   - DOMAIN-SUFFIX,media-amazon.com
   - DOMAIN-SUFFIX,pv-cdn.net
   - DOMAIN-SUFFIX,seattlespheres.com
@@ -82,6 +93,20 @@ payload:
   - DOMAIN-SUFFIX,dssott.com
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,js-agent.newrelic.com
+  # Disney 品牌族 / ESPN / Marvel / StarWars / NatGeo / Hotstar
+  - DOMAIN-SUFFIX,disney.com
+  - DOMAIN-SUFFIX,thewaltdisneycompany.com
+  - DOMAIN-SUFFIX,go.com
+  - DOMAIN-SUFFIX,espn.com
+  - DOMAIN-SUFFIX,espn.net
+  - DOMAIN-SUFFIX,espncdn.com
+  - DOMAIN-SUFFIX,watchespn.com
+  - DOMAIN-SUFFIX,marvel.com
+  - DOMAIN-SUFFIX,starwars.com
+  - DOMAIN-SUFFIX,nationalgeographic.com
+  - DOMAIN-SUFFIX,natgeomaps.com
+  - DOMAIN-SUFFIX,hotstar.com
+  - DOMAIN-SUFFIX,hotstarext.com
   # Discovery
   - DOMAIN,bcbolt446c5271-a.akamaihd.net
   - DOMAIN,content.jwplatform.com
@@ -197,6 +222,7 @@ payload:
   # Bilibili 国际版
   - DOMAIN-SUFFIX,bilibili.tv
   - DOMAIN-SUFFIX,biliintl.co
+  - DOMAIN-SUFFIX,biliintl.com
   - DOMAIN,apiintl.biliapi.net
   # Spotify
   - DOMAIN-KEYWORD,-spotify-

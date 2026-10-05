@@ -1,5 +1,5 @@
 payload:
-  # 哔哩哔哩 CDN
+  # 哔哩哔哩 CDN（Akamai 中国边缘，国内解析到 23.60.96.x/23.204.80.x；与 blackmatrix7/MetaCubeX 一致，保持直连）
   - DOMAIN,p-bstarstatic.akamaized.net
   - DOMAIN,p.bstarstatic.com
   - DOMAIN,upos-bstar-mirrorakam.akamaized.net
@@ -18,6 +18,11 @@ payload:
   - DOMAIN-SUFFIX,biligame.net
   - DOMAIN-SUFFIX,bilivideo.cn
   - DOMAIN-SUFFIX,bilivideo.com
+  - DOMAIN-SUFFIX,biliimg.com
+  - DOMAIN-SUFFIX,bilicomic.com
+  - DOMAIN-SUFFIX,bilicomics.com
+  - DOMAIN-SUFFIX,maoer.com
+  - DOMAIN-SUFFIX,missevan.com
   - DOMAIN-SUFFIX,hdslb.com
   - DOMAIN-SUFFIX,im9.com
   - DOMAIN-SUFFIX,smtcdns.net

@@ -281,6 +281,13 @@ payload:
   - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,akamaistream.net
   - DOMAIN-SUFFIX,akamaized.net
+  # iQiyi 国际版（对齐 blackmatrix7 iQIYIIntl，走代理）
+  - DOMAIN,cache.video.iqiyi.com
+  - DOMAIN-SUFFIX,inter.iqiyi.com
+  - DOMAIN-SUFFIX,intl-rcd.iqiyi.com
+  - DOMAIN-SUFFIX,intl-subscription.iqiyi.com
+  - DOMAIN-SUFFIX,intl.iqiyi.com
+  - DOMAIN-SUFFIX,iq.com
   - DOMAIN-SUFFIX,akiba-online.com
   - DOMAIN-SUFFIX,akiba-web.com
   - DOMAIN-SUFFIX,akinator.com
