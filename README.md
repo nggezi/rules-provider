@@ -21,9 +21,9 @@ payload:
 | `AI_Service` | AI 服务：Google Gemini / AI Studio、OpenAI / ChatGPT、Claude、POE、Grok (xAI)、OpenRouter、Copilot、Dify 等，按服务分组注释 |
 | `Apple_Service` | Apple 服务域名 |
 | `Bahamut` | 巴哈姆特（动画疯） |
-| `Bilibili` | 哔哩哔哩（含 Akamai 中国边缘 CDN、国际版入口域名） |
+| `Bilibili` | 哔哩哔哩（仅国内，含 Akamai 中国边缘 CDN） |
 | `Domestic_Media` | 国内流媒体：爱奇艺、芒果TV、腾讯视频、优酷 |
-| `Foreign_Media` | 国外流媒体：Amazon / Prime Video / Disney 族 / ESPN / Marvel / StarWars / NatGeo / Hotstar、哔哩哔哩国际版等 |
+| `Foreign_Media` | 国外流媒体：Amazon / Prime Video / Disney 族 / ESPN / Marvel / StarWars / NatGeo / Hotstar、哔哩哔哩国际版（`bilibili.tv` / `biliintl.*`）等 |
 | `Game_Platform` | 游戏平台：Steam / Epic 等 |
 | `Global_Direct_1/2/3` | 全球直连兜底（1/2 精选，3 为超大兜底集） |
 | `Google_FCM` | Google FCM 推送 |
