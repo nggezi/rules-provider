@@ -1,17 +1,12 @@
 payload:
+# 手动添加
   - DOMAIN-SUFFIX,nexuscloud.xyz
   - DOMAIN-SUFFIX,parkson-market.org
   - DOMAIN-SUFFIX,api-flowercloud.com
   - DOMAIN-SUFFIX,api-huacloud.com
   - DOMAIN-KEYWORD,xmancdn
-  - PROCESS-NAME,miaospeed-linux-arm64
-  - DOMAIN-SUFFIX,bangumi.online
-  - DOMAIN-SUFFIX,bangumi.cloud
   - DOMAIN-SUFFIX,baozimh.com
-  - DOMAIN-SUFFIX,cdn.lilyemby.my
-  - DOMAIN-SUFFIX,cdn.lilyemby.com
-  - DOMAIN-SUFFIX,deepseek.com
-  - PROCESS-NAME,mosdns
+# 自动添加
   - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,ip6-localhost
   - DOMAIN-SUFFIX,ip6-loopback
