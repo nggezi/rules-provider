@@ -1,5 +1,7 @@
 payload:
 # 手动添加
+  - DOMAIN-SUFFIX,doh.pub
+  - DOMAIN-SUFFIX,dns.alidns.com
   - DOMAIN-SUFFIX,nexuscloud.xyz
   - DOMAIN-SUFFIX,parkson-market.org
   - DOMAIN-SUFFIX,api-flowercloud.com
