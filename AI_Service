@@ -89,7 +89,7 @@ payload:
   # Hugging Face
   - DOMAIN-SUFFIX,huggingface.co
   # Replicate
-  - DOMAIN-SUFFIX,replicate.ai
+  - DOMAIN-SUFFIX,replicate.com
   # Stability AI
   - DOMAIN-SUFFIX,stability.ai
   - DOMAIN,api.stability.ai
@@ -101,7 +101,7 @@ payload:
   - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,x.ai
   # OpenRouter
-  - DOMAIN,openrouter.ai
+  - DOMAIN-SUFFIX,openrouter.ai
   # Cloudflare AI Gateway
   - DOMAIN,gateway.ai.cloudflare.com
   # Dify
@@ -116,3 +116,23 @@ payload:
   - DOMAIN-SUFFIX,ai.azure.com
   - DOMAIN-SUFFIX,meta.ai
   - DOMAIN-SUFFIX,grazie.ai
+
+  # 补充（参考 blackmatrix7 / MetaCubeX / v2fly）
+  - DOMAIN-SUFFIX,cohere.com
+  - DOMAIN-SUFFIX,groq.com
+  - DOMAIN-SUFFIX,hf.co
+  - DOMAIN-SUFFIX,midjourney.com
+  - DOMAIN-SUFFIX,pixpix.com
+  - DOMAIN-SUFFIX,suno.com
+  - DOMAIN-SUFFIX,runwayml.com
+  - DOMAIN-SUFFIX,elevenlabs.io
+  - DOMAIN-SUFFIX,fal.ai
+  - DOMAIN-SUFFIX,leonardo.ai
+  - DOMAIN-SUFFIX,ideogram.ai
+  - DOMAIN-SUFFIX,civitai.com
+  - DOMAIN-SUFFIX,gamma.app
+  - DOMAIN-SUFFIX,coze.com
+  - DOMAIN-SUFFIX,bolt.new
+  - DOMAIN-SUFFIX,lovable.dev
+  - DOMAIN-SUFFIX,v0.dev
+  - DOMAIN-SUFFIX,lmarena.ai
