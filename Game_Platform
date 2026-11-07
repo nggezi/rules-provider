@@ -111,12 +111,17 @@ payload:
   - DOMAIN-SUFFIX,kirbysepicyarn.com
   - DOMAIN-SUFFIX,kirbysuperstarultra.com
   - DOMAIN-SUFFIX,kyurem.com
+  - DOMAIN-SUFFIX,legendofzelda.cn
+  - DOMAIN-SUFFIX,legendofzelda.com.cn
   - DOMAIN-SUFFIX,marioandluigidreamteam.com
   - DOMAIN-SUFFIX,mariobroswii.com
+  - DOMAIN-SUFFIX,mariokart.cn
+  - DOMAIN-SUFFIX,mariokart.com.cn
   - DOMAIN-SUFFIX,mariokart7.com
   - DOMAIN-SUFFIX,mariokart8.com
   - DOMAIN-SUFFIX,mariosupersluggers.com
   - DOMAIN-SUFFIX,miitomo.com
+  - DOMAIN-SUFFIX,miitomo.com.cn
   - DOMAIN-SUFFIX,miiverse.com
   - DOMAIN-SUFFIX,minecraftshop.com
   - DOMAIN-SUFFIX,msgamestudios.com
@@ -138,10 +143,13 @@ payload:
   - DOMAIN-SUFFIX,nintendo3ds.com
   - DOMAIN-SUFFIX,nintendodsi.com
   - DOMAIN-SUFFIX,nintendoeurope.com
+  - DOMAIN-SUFFIX,nintendolabo.cn
   - DOMAIN-SUFFIX,nintendonetwork.net
   - DOMAIN-SUFFIX,nintendonyc.com
   - DOMAIN-SUFFIX,nintendostore.com
+  - DOMAIN-SUFFIX,nintendoswitch.cn
   - DOMAIN-SUFFIX,nintendoswitch.com
+  - DOMAIN-SUFFIX,nintendoswitch.com.cn
   - DOMAIN-SUFFIX,nintendoswitch.net
   - DOMAIN-SUFFIX,nintendoswitchtogether.com
   - DOMAIN-SUFFIX,nintendowii.com
@@ -187,14 +195,18 @@ payload:
   - DOMAIN-SUFFIX,steam.naeu.qtlglb.com
   - DOMAIN-SUFFIX,steam.ru.qtlglb.com
   - DOMAIN-SUFFIX,steamconnecttest.com
+  - DOMAIN-SUFFIX,steamcontent.tnkjmec.com
   - DOMAIN-SUFFIX,steampipe-kr.akamaized.net
   - DOMAIN-SUFFIX,steampipe-partner.akamaized.net
   - DOMAIN-SUFFIX,steamunlocked.net
   - DOMAIN-SUFFIX,supermario.com
   - DOMAIN-SUFFIX,supermario3dworld.com
+  - DOMAIN-SUFFIX,supermariobros.com.cn
   - DOMAIN-SUFFIX,supermariogalaxy.com
   - DOMAIN-SUFFIX,supermariorun.com
   - DOMAIN-SUFFIX,superpapermario.com
+  - DOMAIN-SUFFIX,supersmashbros.cn
+  - DOMAIN-SUFFIX,supersmashbros.com.cn
   - DOMAIN-SUFFIX,tellmewhygame.com
   - DOMAIN-SUFFIX,thelegendarystarfy.com
   - DOMAIN-SUFFIX,thewonderful101.com
@@ -220,6 +232,7 @@ payload:
   - DOMAIN-SUFFIX,xboxab.com
   - DOMAIN-SUFFIX,xboxab.net
   - DOMAIN-SUFFIX,xboxgamestudios.com
+  - DOMAIN-SUFFIX,xboxlive.cn
   - DOMAIN-SUFFIX,xboxone.co
   - DOMAIN-SUFFIX,xboxone.com
   - DOMAIN-SUFFIX,xboxone.eu
@@ -228,5 +241,6 @@ payload:
   - DOMAIN-SUFFIX,xboxstudios.com
   - DOMAIN-SUFFIX,xbx.lv
   - DOMAIN-SUFFIX,xenoblade.com
+  - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.cn
   - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.net
   - DOMAIN-SUFFIX,yoshisnewisland.com
