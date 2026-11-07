@@ -845,4 +845,24 @@ payload:
   - PROCESS-NAME,DownloadService.exe
   - PROCESS-NAME,Weiyun.exe
   - PROCESS-NAME,baidunetdisk.exe
+
+  # 国内游戏站点/中国 CDN（从 Game_Platform 移入，保持直连）
+  - DOMAIN-SUFFIX,legendofzelda.cn
+  - DOMAIN-SUFFIX,legendofzelda.com.cn
+  - DOMAIN-SUFFIX,mariokart.cn
+  - DOMAIN-SUFFIX,mariokart.com.cn
+  - DOMAIN-SUFFIX,miitomo.com.cn
+  - DOMAIN-SUFFIX,nintendolabo.cn
+  - DOMAIN-SUFFIX,nintendoswitch.cn
+  - DOMAIN-SUFFIX,nintendoswitch.com.cn
+  - DOMAIN-SUFFIX,supermariobros.com.cn
+  - DOMAIN-SUFFIX,supersmashbros.cn
+  - DOMAIN-SUFFIX,supersmashbros.com.cn
+  - DOMAIN-SUFFIX,xboxlive.cn
+  - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.cn
+  - DOMAIN-SUFFIX,dl.steam.clngaa.com
+  - DOMAIN-SUFFIX,dl.steam.ksyna.com
+  - DOMAIN-SUFFIX,dota2.wmsj.cn
+  - DOMAIN-SUFFIX,csgo.wmsj.cn
+  - DOMAIN-SUFFIX,steamcontent.tnkjmec.com
   - GEOIP,CN
