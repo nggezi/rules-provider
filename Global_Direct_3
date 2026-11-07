@@ -323,6 +323,7 @@ payload:
   - DOMAIN-SUFFIX,qqmail.com
   - DOMAIN-SUFFIX,qqurl.com
   - DOMAIN-SUFFIX,smtcdns.com
+  - DOMAIN-SUFFIX,smtcdns.net
   - DOMAIN-SUFFIX,soso.com
   - DOMAIN-SUFFIX,tencent-cloud.net
   - DOMAIN-SUFFIX,tencent.com

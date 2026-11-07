@@ -271,6 +271,7 @@ payload:
   - DOMAIN-SUFFIX,pups.bdimg.com
   - DOMAIN-SUFFIX,push.music.baidu.com
   - DOMAIN-SUFFIX,push.zhanzhang.baidu.com
+  - DOMAIN-SUFFIX,qchannel0d.cn
   - DOMAIN-SUFFIX,qianclick.baidu.com
   - DOMAIN-SUFFIX,release.baidu.com
   - DOMAIN-SUFFIX,res.limei.com
@@ -465,3 +466,4 @@ payload:
   - DOMAIN-SUFFIX,aider-res.meizu.com
   - DOMAIN-SUFFIX,api-flow.meizu.com
   - DOMAIN-SUFFIX,api-game.meizu.com
+  - DOMAIN-

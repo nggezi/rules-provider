@@ -9,6 +9,7 @@ payload:
   - DOMAIN-KEYWORD,xmancdn
   - DOMAIN-SUFFIX,baozimh.com
 # 自动添加
+  - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,ip6-localhost
   - DOMAIN-SUFFIX,ip6-loopback
   - DOMAIN-SUFFIX,lan
