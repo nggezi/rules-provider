@@ -1,6 +1,4 @@
 payload:
-  # Opencode Go
-  - DOMAIN,opencode.ai
   # Google Gemini / AI Studio
   - DOMAIN,ai.google.dev
   - DOMAIN,alkalimakersuite-pa.clients6.google.com
